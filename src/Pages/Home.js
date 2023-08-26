@@ -37,7 +37,7 @@ const Home = () => {
             })
             .catch((error) => console.log("error", error));
 
-        fetch(process.env.REACT_APP_SERVER + "/api/genres?lang=" + tempLang + "&page=" + page + "&preferredLang=" + preferredLang, requestOptions)
+        fetch(process.env.REACT_APP_SERVER + "/api/genres/?lang=" + tempLang + "&page=" + page + "&preferredLang=" + preferredLang, requestOptions)
             .then((response) => response.json())
             .then((result) => {
                 setSections(result["items"]);
@@ -109,7 +109,7 @@ const Home = () => {
                                 method: "GET",
                                 redirect: "follow",
                             };
-                            fetch(process.env.REACT_APP_SERVER + "/api/genres?lang=" + language + "&page=" + (page + 1) + "&preferredLang=" + preferredLang, requestOptions)
+                            fetch(process.env.REACT_APP_SERVER + "/api/genres/?lang=" + language + "&page=" + (page + 1) + "&preferredLang=" + preferredLang, requestOptions)
                                 .then((response) => response.json())
                                 .then((result) => {
                                     let temp = [...sections];
