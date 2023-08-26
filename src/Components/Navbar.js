@@ -32,7 +32,7 @@ const Navbar = () => {
             redirect: "follow",
         };
 
-        fetch(process.env.REACT_APP_SERVER + "/api/menu?preferred_lang=" + preferredLang + "&lang=" + language, requestOptions)
+        fetch(process.env.REACT_APP_SERVER + "/api/menu/?preferred_lang=" + preferredLang + "&lang=" + language, requestOptions)
             .then((response) => response.json())
             .then((result) => setMenu(result["items"]))
             .catch((error) => console.log("error", error));
