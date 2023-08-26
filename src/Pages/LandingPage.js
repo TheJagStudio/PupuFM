@@ -6,7 +6,7 @@ const LandingPage = () => {
     const [showPlayer, setShowPlayer] = useAtom(showPlayerAtom);
     const [playerRefState, setPlayerRefState] = useAtom(PlayerRefAtom);
     useEffect(() => {
-        if (playerRefState.current.paused) {
+        if (playerRefState?.current?.paused) {
             setShowPlayer(false);
         }
     }, [setShowPlayer]);
