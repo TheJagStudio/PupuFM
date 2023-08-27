@@ -13,13 +13,8 @@ const LandingPage = () => {
     return (
         <div className="bg-[#191B1F]">
             <div className="z-[99] top-0 flex h-20 transition-all duration-500 md:sticky md:h-28 bg-black/10 backdrop-blur-xl">
-                <nav className="relative z-20 flex w-full items-center justify-between px-5 md:hidden ">
+                <nav className="relative z-50 flex w-full items-center justify-between px-5 md:hidden ">
                     <div className="flex items-center">
-                        <button className="mr-5 flex text-white md:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
                         <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain scale-125 rounded-md" style={{ color: "transparent" }} src="/images/logo.png" />
                     </div>
                     <a className="bg-primary-500 inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-bold text-white" href="/home">
@@ -213,26 +208,6 @@ const LandingPage = () => {
                                 </NavLink>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <NavLink className="z-51 fixed bottom-0 left-0 h-16 w-full md:hidden" target="_blank" rel="noreferrer" to="https://kukufm.sng.link/Apksi/676a/zqqq?pcrn=download_app_strip&pcrid=100">
-                            <img
-                                alt="pupufm App Download"
-                                loading="lazy"
-                                decoding="async"
-                                data-nimg="fill"
-                                sizes="100vw"
-                                srcSet="https://images.cdn.kukufm.com/w:480/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 480w, https://images.cdn.kukufm.com/w:640/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 640w, https://images.cdn.kukufm.com/w:750/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 750w, https://images.cdn.kukufm.com/w:828/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 828w, https://images.cdn.kukufm.com/w:1080/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 1080w, https://images.cdn.kukufm.com/w:1200/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 1200w, https://images.cdn.kukufm.com/w:1920/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png 1920w"
-                                src="https://images.cdn.kukufm.com/w:1920/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/download_app_black.png"
-                                style={{
-                                    position: "absolute",
-                                    height: "100%",
-                                    width: "100%",
-                                    inset: 0,
-                                    color: "transparent",
-                                }}
-                            />
-                        </NavLink>
                     </div>
                 </div>
             </div>
