@@ -108,7 +108,7 @@ const LandingPage = () => {
                 </nav>
             </div>
             <div className="z-0 ">
-                <div className="absolute top-0 h-5/6 w-full z-0">
+                <div className="absolute top-0 h-1/5 w-full z-0">
                     <img
                         alt="pupufm Top Audio Books"
                         loading="lazy"
