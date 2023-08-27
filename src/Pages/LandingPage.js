@@ -11,8 +11,8 @@ const LandingPage = () => {
         }
     }, [setShowPlayer]);
     return (
-        <div className="bg-[#191B1F]">
-            <div className="z-[99] top-0 flex h-20 transition-all duration-500 md:sticky md:h-28 bg-black/10 backdrop-blur-xl">
+        <div className="bg-[#191B1F] relative">
+            <div className="z-[99] top-0 flex h-20 transition-all duration-500 sticky md:h-28 bg-black/10 backdrop-blur-sm">
                 <nav className="relative z-50 flex w-full items-center justify-between px-5 md:hidden ">
                     <div className="flex items-center">
                         <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain scale-125 rounded-md" style={{ color: "transparent" }} src="/images/logo.png" />
@@ -107,8 +107,8 @@ const LandingPage = () => {
                     </div>
                 </nav>
             </div>
-            <div>
-                <div className="absolute top-0 h-5/6 w-full">
+            <div className="z-0 ">
+                <div className="absolute top-0 h-5/6 w-full z-0">
                     <img
                         alt="pupufm Top Audio Books"
                         loading="lazy"
