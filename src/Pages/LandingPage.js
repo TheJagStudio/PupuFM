@@ -20,16 +20,16 @@ const LandingPage = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
                         </button>
-                        <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain" style={{ color: "transparent" }} srcSet="https://images.cdn.kukufm.com/w:96/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 1x, https://images.cdn.kukufm.com/w:256/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 2x" src="https://images.cdn.kukufm.com/w:256/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png" />
+                        <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain scale-125 rounded-md" style={{ color: "transparent" }} src="/images/logo.png" />
                     </div>
-                    <NavLink className="bg-primary-500 inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-bold text-white" to="/home/hindi">
+                    <a className="bg-primary-500 inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-bold text-white" href="/home">
                         <div className="text-xs font-bold md:text-lg">Explore</div>
                         <img src="https://d1l07mcd18xic4.cloudfront.net/static/arrow-right-white.svg" className="ml-2 h-4 w-4" alt="pupufm Explore" />
-                    </NavLink>
+                    </a>
                 </nav>
                 <nav className="relative z-50 hidden w-full items-center justify-between px-16 py-8 text-white md:flex">
                     <div className="flex-1 flex-shrink-0">
-                        <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain" style={{ color: "transparent" }} srcSet="https://images.cdn.kukufm.com/w:96/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 1x, https://images.cdn.kukufm.com/w:256/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 2x" src="https://images.cdn.kukufm.com/w:256/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png" />
+                        <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain scale-125 rounded-md" style={{ color: "transparent" }} src="/images/logo.png" />
                     </div>
                     <div className="flex items-center space-x-12">
                         <div className="">
@@ -337,7 +337,7 @@ const LandingPage = () => {
             <div className="py-8 lg:py-20">
                 <div className="grid grid-cols-1 space-y-6 p-5 md:grid-cols-3 md:space-y-0 lg:p-24">
                     <div className="space-y-6 pr-12">
-                        <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain" style={{ color: "transparent" }} srcSet="https://images.cdn.kukufm.com/w:96/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 1x, https://images.cdn.kukufm.com/w:256/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 2x" src="https://images.cdn.kukufm.com/w:256/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png" />
+                        <img alt="Kukufm" loading="lazy" width={88} height={22} decoding="async" data-nimg={1} className="h-8 w-auto object-contain" style={{ color: "transparent" }} srcSet="https://images.cdn.kukufm.com/w:96/f:webp/q:75/https://d1l07mcd18xic4.cloudfront.net/static/kukufm_new_landing.png 1x, /images/logo.png 2x" src="/images/logo.png" />
                         <div className="text-base font-normal text-red-500">FOLLOW US ON</div>
                         <div className="flex space-x-8">
                             <NavLink to="/" target="_blank" rel="noreferrer">

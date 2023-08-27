@@ -178,14 +178,6 @@ const ShowDetails = () => {
                                                 temp["duration"] = data.durationS;
                                                 setPlayerDetails(temp);
                                                 setShowPlayer(true);
-                                                playerRefState?.current?.play();
-                                                setPlayerStatus(true);
-                                                window.playerInterval = setInterval(() => {
-                                                    let audioCurrTime = playerRefState?.current?.currentTime;
-                                                    let audioDuration = playerRefState?.current?.duration;
-                                                    let percentage = (audioCurrTime / audioDuration) * 100;
-                                                    setcurrValue(percentage);
-                                                }, 100);
                                             })
                                             .catch((error) => console.log("error", error));
                                     }}
